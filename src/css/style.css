@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body, main {
+    height: 100%;
+}
+main {
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* центрирование по вертикали */
+}
+.item {
+    height: 50px;
+    background-color: tan;
+    margin-bottom: 20px;
+    border: none;
+    font-size: 28px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(0,0,0,0.5);
+}
+.item:hover {
+    background-color: rgb(34, 205, 17);
+}
+.item:active {
+    transform: scale(0.98);
+    box-shadow: none;
+}
